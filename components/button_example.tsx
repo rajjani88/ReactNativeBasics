@@ -40,14 +40,3 @@ export default function App(){
     </View>
   );
 }
-
-
-// Basic Text Eample
-/*
-  <View>
-      <Text style = {{fontSize : 30}}> 1. 
-      <Text style = {{color : 'red',}}> Hello world BOC</Text>
-      </Text>
-    </View>
-
-*/
