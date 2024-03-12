@@ -1,123 +1,18 @@
-import {  ScrollView, Text, View } from "react-native";
+import {  Button, ScrollView, Text, View } from "react-native";
+import StudentName from './components/student_name';
+import Register from "./components/register_form";
 
 export default function App(){
   return (
-    <ScrollView>
-
-   
     <View>
-      <View
-      style = {{
-        height : 100,
-        margin : 16,
-        backgroundColor : 'blue',
-        justifyContent : 'center'
-      }}>
-        <Text style = {{
-          textAlign : 'center',
-        color : 'white',
-        fontSize : 16
-      }}> I am Text</Text>
-      </View>
-      <View
-      style = {{
-        height : 100,
-        margin : 16,
+      <Text>
+        Custom View
+      </Text>
+      <Register/>
+      <StudentName name = "JAY" />
+      <StudentName name = "VIkas" />
 
-        backgroundColor : 'blue',
-        justifyContent : 'center'
-      }}>
-        <Text style = {{
-          textAlign : 'center',
-        color : 'white',
-        fontSize : 16
-      }}> I am Text</Text>
-      </View>
-      <View
-      style = {{
-        height : 100,
-        margin : 16,
-        backgroundColor : 'blue',
-        justifyContent : 'center'
-      }}>
-        <Text style = {{
-          textAlign : 'center',
-        color : 'white',
-        fontSize : 16
-      }}> I am Text</Text>
-      </View>
-      <View
-      style = {{
-        height : 100,
-        margin : 16,
-
-        backgroundColor : 'blue',
-        justifyContent : 'center'
-      }}>
-        <Text style = {{
-          textAlign : 'center',
-        color : 'white',
-        fontSize : 16
-      }}> I am Text</Text>
-      </View>
-      <View
-      style = {{
-        height : 100,
-        margin : 16,
-
-        backgroundColor : 'blue',
-        justifyContent : 'center'
-      }}>
-        <Text style = {{
-          textAlign : 'center',
-        color : 'white',
-        fontSize : 16
-      }}> I am Text</Text>
-      </View>
-      <View
-      style = {{
-        height : 100,
-        margin : 16,
-
-        backgroundColor : 'blue',
-        justifyContent : 'center'
-      }}>
-        <Text style = {{
-          textAlign : 'center',
-        color : 'white',
-        fontSize : 16
-      }}> I am Text</Text>
-      </View>
-      <View
-      style = {{
-        height : 100,
-        margin : 16,
-
-        backgroundColor : 'blue',
-        justifyContent : 'center'
-      }}>
-        <Text style = {{
-          textAlign : 'center',
-        color : 'white',
-        fontSize : 16
-      }}> I am Text</Text>
-      </View>
-      <View
-      style = {{
-        height : 100,
-        margin : 16,
-
-        backgroundColor : 'blue',
-        justifyContent : 'center'
-      }}>
-        <Text style = {{
-          textAlign : 'center',
-        color : 'white',
-        fontSize : 16
-      }}> I am Text</Text>
-      </View>
     </View>
-    </ScrollView>
   );
 }
 
