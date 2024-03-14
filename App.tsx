@@ -1,18 +1,11 @@
 import {  Button, ScrollView, Text, View } from "react-native";
 import StudentName from './components/student_name';
 import Register from "./components/register_form";
+import MyImage from "./components/my_image";
 
 export default function App(){
   return (
-    <View>
-      <Text>
-        Custom View
-      </Text>
-      <Register/>
-      <StudentName name = "JAY" />
-      <StudentName name = "VIkas" />
-
-    </View>
+   <MyImage/>
   );
 }
 
