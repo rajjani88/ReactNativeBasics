@@ -1,11 +1,15 @@
 import {  ScrollView, Text, View } from "react-native";
 
-export default function App(){
+export default function MyScrollView(){
   return (
-    <ScrollView>
-
-   
-    <View>
+    <ScrollView
+    horizontal = {true}
+    >
+    <View
+    style = {{
+      flexDirection : "row"
+    }}
+    >
       <View
       style = {{
         height : 100,
@@ -23,7 +27,6 @@ export default function App(){
       style = {{
         height : 100,
         margin : 16,
-
         backgroundColor : 'blue',
         justifyContent : 'center'
       }}>

@@ -1,17 +1,18 @@
 import { Button, Pressable, Text, View } from "react-native";
 
-export default function App(){
+export default function MyButtonExamlpe(){
   return (
     <View>
       <Text style = {{fontSize : 30}}> Button Example </Text>
       <View style = {{ padding : 14}}>
       <Button 
       title="Click Me" 
-      onPress={()=>{
+      color='red'
+      onPress={
+        ()=>{
         console.log("Button 1 Clicked"); 
-      }}
-      color='Rsed'
-      
+      }
+    }
       /> 
       </View>
       <View style = {{ padding : 14}}>
